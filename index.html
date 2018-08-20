@@ -7,18 +7,20 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="overview_container">
   <div class="header">
     <h1>The Code Review</h1>
   </div><!--.header-->
-  <div class="form-overview">
+  <div class="form_overview">
     <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox</p>
-  </div><!--.form-overview-->
+  </div><!--.form_overview-->
+</div><!--.overview_container-->
   <hr>
-  <div class="form-container">
+  <div class="form_container">
     <form action="index.html" method="post">
       <fieldset class="contact">
-        <legend class="">Contact Information</legend>
+        <legend class="form_title">Contact Information</legend>
 
           <label for="full_name">Full Name</label>
           <input type="text" name="user_full_name" id="full_name" placeholder="Required" required>
@@ -92,11 +94,11 @@
           </select>
 
           <label for="zip_code">Zip Code</label>
-          <input type="text" name="user_zip_code" id="zip_code" placeholder="required" required>
+          <input type="text" name="user_zip_code" id="zip_code" placeholder="Required" required>
       </fieldset><!--.contact-->
       <hr>
       <fieldset class="newsletter">
-        <legend class="">Newsletter</legend>
+        <legend class="form_title">Newsletter</legend>
 
         <label>Select the newsletters you would like to recieve</label>
         <div class="">
@@ -118,7 +120,7 @@
       </fieldset><!--.newsletter-->
       <button type="submit">Sign Up</button>
     </form><!--End form section-->
-  </div><!--.form-container-->
+  </div><!--.form_container-->
 
   <footer>
     <p class="">&copy;Copy Right The Code Review</p>
